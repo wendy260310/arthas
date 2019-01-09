@@ -1,4 +1,4 @@
-package com.taobao.arthas.core.command.klass100;
+package com.taobao.arthas.core.command.klass100.redefine;
 
 import java.io.File;
 import java.io.IOException;

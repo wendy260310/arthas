@@ -12,7 +12,7 @@ Fork from [arthas](https://github.com/alibaba/arthas), you could read the full d
   
 * nested linux command in redefine command supported ,sometimes we need linux command pipeline to specify redefine path.
 
-  ``redefine -p `ls -lrt -d -1 /home/admin/* | grep class ``
+  ``redefine -p `ls -lrt -d -1 /home/admin/* | grep class` ``
 
 ### Attention
 

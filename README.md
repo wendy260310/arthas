@@ -341,8 +341,18 @@ Welcome to register the company name in this issue: https://github.com/alibaba/a
 ![玩友时代](static/wangyoushidai.png)
 ![她社区](static/tashequ.png)
 ![龙腾出行](static/longtengchuxing.png)
+![foscam](static/foscam.png)
+![二维火](static/2dfire.png)
 
 ### Credit
+
+#### Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/alibaba/arthas/graphs/contributors"><img src="https://opencollective.com/arthas/contributors.svg?width=890&button=false" /></a>
+
+#### Projects
 
 * [greys-anatomy](https://github.com/oldmanpushcart/greys-anatomy): The Arthas code base has derived from Greys, we thank for the excellent work done by Greys.
 * [termd](https://github.com/termd/termd): Arthas's terminal implementation is based on termd, an open source library for writing terminal applications in Java.

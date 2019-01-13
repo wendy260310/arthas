@@ -338,8 +338,18 @@ $ classloader
 ![玩友时代](static/wangyoushidai.png)
 ![她社区](static/tashequ.png)
 ![龙腾出行](static/longtengchuxing.png)
+![foscam](static/foscam.png)
+![二维火](static/2dfire.png)
 
 ### Credit
+
+#### Contributors
+
+感谢所有Contributors!
+
+<a href="https://github.com/alibaba/arthas/graphs/contributors"><img src="https://opencollective.com/arthas/contributors.svg?width=890&button=false" /></a>
+
+#### Projects
 
 * [greys-anatomy](https://github.com/oldmanpushcart/greys-anatomy): Arthas代码基于Greys二次开发而来，非常感谢Greys之前所有的工作，以及Greys原作者对Arthas提出的意见和建议！
 * [termd](https://github.com/termd/termd): Arthas的命令行实现基于termd开发，是一款优秀的命令行程序开发框架，感谢termd提供了优秀的框架。

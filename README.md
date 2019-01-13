@@ -17,3 +17,7 @@ Fork from [arthas](https://github.com/alibaba/arthas), you could read the full d
 ### Attention
 
 code tested only on mac  10.13.3
+
+### release download
+
+[arthas.zip](https://linlan.tech/download/arthas.zip)

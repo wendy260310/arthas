@@ -94,10 +94,14 @@ public class CliTokenImpl implements CliToken {
         LineStatus quoter = new LineStatus();
         int from = index;
         StringBuilder value = new StringBuilder();
+        boolean linuxCommand = false;
         while (index < s.length()) {
             char c = s.charAt(index);
+            if(c =='`'){
+                linuxCommand = !linuxCommand;
+            }
             quoter.accept(c);
-            if (!quoter.isQuoted() && !quoter.isEscaped() && isBlank(c)) {
+            if (!quoter.isQuoted() && !quoter.isEscaped() && isBlank(c) && !linuxCommand) {
                 break;
             }
             if (quoter.isCodePoint()) {

@@ -90,7 +90,7 @@ public class RedefineAnnotatedCommandImpl extends AnnotatedCommandImpl {
         private String[] runLinuxCommand(String tmp) {
             String cmd = tmp.substring(1, tmp.length() - 1);
             try {
-                Process process = Runtime.getRuntime().exec(cmd);
+                Process process = Runtime.getRuntime().exec(new String[] {"/bin/bash", "-c", cmd});
                 String ret = IOUtils.toString(process.getInputStream());
                 return ret.split("[\\s+|\\r?\\n]");
 

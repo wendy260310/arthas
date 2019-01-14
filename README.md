@@ -5,9 +5,9 @@ Fork from [arthas](https://github.com/alibaba/arthas), you could read the full d
 
 ### New Features
 
-* `ls` linux command supported
+* linux command supported
 
-  `` ls -lrt -d -1 /home/admin/* ``
+  `` bash ls -lrt -d -1 /home/admin/* ``
   
   
 * nested linux command in redefine command supported ,sometimes we need linux command pipeline to specify redefine path.
@@ -18,6 +18,6 @@ Fork from [arthas](https://github.com/alibaba/arthas), you could read the full d
 
 code tested only on mac  10.13.3
 
-### release download
+### Release download
 
 [arthas.zip](https://linlan.tech/download/arthas.zip)

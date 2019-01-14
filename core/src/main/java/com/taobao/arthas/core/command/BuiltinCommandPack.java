@@ -10,7 +10,6 @@ import com.taobao.arthas.core.command.klass100.GetStaticCommand;
 import com.taobao.arthas.core.command.klass100.JadCommand;
 import com.taobao.arthas.core.command.klass100.OgnlCommand;
 import com.taobao.arthas.core.command.klass100.redefine.RedefineAnnotatedCommandImpl;
-import com.taobao.arthas.core.command.klass100.redefine.RedefineCommand;
 import com.taobao.arthas.core.command.klass100.SearchClassCommand;
 import com.taobao.arthas.core.command.klass100.SearchMethodCommand;
 import com.taobao.arthas.core.command.monitor200.DashboardCommand;
@@ -75,6 +74,6 @@ public class BuiltinCommandPack implements CommandResolver {
         commands.add(Command.create(SystemEnvCommand.class));
         commands.add(new RedefineAnnotatedCommandImpl());
         commands.add(Command.create(HistoryCommand.class));
-        commands.add(Command.create(LsCommand.class));
+        commands.add(Command.create(BashCommand.class));
     }
 }
